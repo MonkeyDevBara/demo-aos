@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bg {
+  background-color: darkslategrey;
+  background-image: url("sunny-go1.jpeg");
+  height: 550vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-card {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-inner {
+  height: 500px;
+  background-color: black;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+.card-front:hover {
+  color: red;
+  font-size: 1.5em;
+  background-color: darkgrey;
+}
+
+.card-front h1 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.fade-aos-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.fade-aos-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 100px;
+}
+
+.fade {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 300px;
+  width: 600px;
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+  margin-left: 100px;
+}
